@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+
+}
+
+.home{
+  background-image: url("h10.jpg");
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+.about{
+  background-image: url("h3.jpg");
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.projects{
+  background-image: url("projects.jpg");
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  
+}
+
+
+.sections{
+  width: 100%;
+  height: calc(100vh - 60px );
+  position: relative;
+  padding-bottom: 3rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+  
